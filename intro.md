@@ -45,4 +45,6 @@ In JS, we add an event on a button using a imperative approach (We describe what
 Whereas, react is declarative, we describe what we want. 
 `<button className="btn" onClick={someHandler}>`
 
-
+## State
+Register different states and allows us to do things based on those states.
+`useState()` always returns two elements. First element is the current state. The second is a setter function.
