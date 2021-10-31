@@ -96,3 +96,13 @@ function AllMeetupsPage() {
 }
 ```
 Use the map() function to return a list. NOTE: Needs a unique identifier defined with `key=`
+
+## Wrapping Classes
+Components can be wrapped around other JSX code. For example, a `<Card></Card>` component can wrap card styling.
+Inside the Card component, the `props.children` argument can be used to pass whatever is between `<Card></Card>`.
+
+```
+function Card(props) {
+  return <div className={classes.card}>{props.children}</div>;
+}
+```
